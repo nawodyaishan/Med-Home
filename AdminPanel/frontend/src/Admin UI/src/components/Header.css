@@ -1,0 +1,56 @@
+.navbar {
+    backgroundcolor: #b8bada ;
+    margin-bottom: 10px;
+
+    
+    
+}
+
+nav {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    border: 2px solid #EBECF1;
+    border-radius: 30px;
+    animation: slide-in 1s ease-out;
+  }
+
+  ul {
+    position: relative;
+    display: flex;
+    flex: 1 1 auto;
+    margin: 0;
+    padding: 0 30px;
+    list-style-type: none;
+    li:not(last-child);
+  }
+
+
+  @keyframes slide-in {
+    0% {
+      top: -50px;
+    }
+    40% {
+      top: 20px;
+    }
+    70% {
+      top: 10px;
+    }
+    100% {
+      top: 15px;
+    }
+  }
+  
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+.nav-item:hover {background-color: #4e658f}
+
+
