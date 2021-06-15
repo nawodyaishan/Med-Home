@@ -1,6 +1,5 @@
-import React,{useState} from "react";
-import axios from "axios";
-//import './ViewAttendance.css'; 
+import React from "react";
+import './records.css'; 
 
 
 export default function ViewStudents(){
@@ -13,7 +12,7 @@ export default function ViewStudents(){
 
       
         <div className="container">
-            
+      
             <br/>
             <br/>
             
@@ -22,18 +21,12 @@ export default function ViewStudents(){
                     <h3>View Patient's Records</h3>
                 </div>
 
-                <button type="submit" class="button1">View Records
+                <button type="submit" className="btn">View Records
                 </button>
+            
                 
-
-      
-                
-
-               
-
-                
-                </form>
-                </div>
+            </form>
+        </div>
        
     )
 

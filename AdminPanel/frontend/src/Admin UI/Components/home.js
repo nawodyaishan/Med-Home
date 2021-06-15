@@ -27,7 +27,7 @@ export default function home(){
                             <span></span>
                         </div>
                         <p>Lorem Ipsum is simply dummy text of the printing <br/> and typesetting industry.</p>
-                        <button className="btn">Learn More 
+                        <button className="btn">SEE MORE 
                             <i><img alt="" src={arrowWhite}/></i>
                         </button>
                     </div>
@@ -40,7 +40,7 @@ export default function home(){
                             <span></span>
                         </div>
                         <p>Lorem Ipsum is simply dummy text of the printing <br/> and typesetting industry.</p>
-                        <button className="btn">Learn More 
+                        <button className="btn">SEE MORE 
                             <i><img alt="" src={arrowWhite}/></i>
                         </button>
                     </div>
@@ -56,16 +56,15 @@ export default function home(){
                     <img src={aboutUs} className="img-responsive" alt="" /> 
                 </div>
                 <div className="right col-md-6 m-top25 p-bot40">
-                    <h4>Your care starts here</h4>
-                    <h3>Medical Care</h3>
-                    <p>There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
-                    <a href="about-us" className="btn red-btn m-top30">VIEW ALL OUR SERVICE</a>                     
+                    <h4>Reports</h4>
+                    <h3>patients</h3>
+                    <a href="about-us" className="btn red-btn m-top30">VIEW ALL</a>                     
                 </div>
             </div>
         </div>
 
 
-        <div id="section-3points" className="container">
+        {/*<div id="section-3points" className="container">
             <div className="services-list">
                 <div className="row">
                     <div className="service-block col-md-4">
@@ -103,7 +102,7 @@ export default function home(){
                     </div>
                 </div>
             </div>
-        </div>
+    </div> */}
 
         
         <div id="light-grey-bg" className="container-fluid">
@@ -111,9 +110,9 @@ export default function home(){
             <div id="section-ourdepartments" className="container p-bot45">
                 <div className="row">
                     <div className="left col-md-6">
-                        <h3>Our Departments</h3> 
+                        <h3>Departments</h3> 
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p> 
-                        <a href="about-us" className="btn blue-btn">VIEW ALL OUR SERVICE</a>
+                        <a href="about-us" className="btn blue-btn">VIEW ALL SERVICE</a>
                     </div>
                     <div className="right col-md-6">
                         <img src={doctor_with_heart} className="img-responsive" alt=" " /> 
@@ -124,25 +123,25 @@ export default function home(){
                         <img src={Pulmonary} alt="" />
                         <h3>Pulmonary</h3> 
                         <p>Consectetur adipiscing elit, sed do in eiusmod tempor incididunt ut esse dolore magna aliqua.</p>
-                        <a href="#"><i className="fa fa-plus"></i> LEARN MORE</a> 
+                        <a href="#"><i className="fa fa-plus"></i> SEE MORE</a> 
                     </div>
                     <div className="col-md-3 item p-bot40 p-top65">
                         <img src={getroenteritis} alt="" />
                         <h3>Getroenteritis</h3> 
                         <p>Consectetur adipiscing elit, sed do in eiusmod tempor incididunt ut esse dolore magna aliqua.</p>
-                        <a href="#"><i className="fa fa-plus"></i> LEARN MORE</a> 
+                        <a href="#"><i className="fa fa-plus"></i> SEE MORE</a> 
                     </div>
                     <div className="col-md-3 item p-bot40 p-top65">
                         <img src={cardiology} alt="" />
                         <h3>Cardiology</h3> 
                         <p>Consectetur adipiscing elit, sed do in eiusmod tempor incididunt ut esse dolore magna aliqua.</p>
-                        <a href="#"><i className="fa fa-plus"></i> LEARN MORE</a> 
+                        <a href="#"><i className="fa fa-plus"></i> SEE MORE</a> 
                     </div>
                     <div className="col-md-3 item p-bot40 p-top65">
                         <img src={nephrology} alt="" />
                         <h3>Nephrology</h3> 
                         <p>Consectetur adipiscing elit, sed do in eiusmod tempor incididunt ut esse dolore magna aliqua.</p>
-                        <a href="#"><i className="fa fa-plus"></i> LEARN MORE</a> 
+                        <a href="#"><i className="fa fa-plus"></i> SEE MORE</a> 
                     </div>
                 </div>
             </div>

@@ -1,9 +1,21 @@
 body{
-	margin: 0;
+	margin-top: 20px;
 	padding: 0;
 	background: rgb(255, 255, 255);
-   
+}
 
+.bodyN{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(https://user-images.githubusercontent.com/79810886/122106624-c9da9280-ce37-11eb-8de6-cc2e1b0f4eb5.png);
+	background-size: cover;
+	-webkit-filter: blur(7px);
+	z-index: 0;
 }
 
 
@@ -49,3 +61,4 @@ margin-top: 30px;
     }
 
 
+/*https://user-images.githubusercontent.com/79810886/122105404-5dab5f00-ce36-11eb-8125-745e72f1743c.png*/

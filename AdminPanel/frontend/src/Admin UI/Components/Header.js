@@ -10,16 +10,16 @@ function Header(){
   return(
     
 
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
+    <nav className="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+      <div className="container">
         <a className="navbar-brand" >
           <img src={favicon} alt="" width="60%" height="70%"/>
         </a>
         <a className="navbar-brand" href="#" Style={{Color:"black"}}>Med @ Home</a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="navbar-collapse collapse justify-content-end" id="navbarDefault">
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link active"  href="/home">Home</a>

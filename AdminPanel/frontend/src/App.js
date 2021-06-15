@@ -10,6 +10,10 @@ import Doctors from './Admin UI/Components/doctors';
 import Records from './Admin UI/Components/records';
 import Patients from './Admin UI/Components/patients';
 import home from './Admin UI/Components/home';
+import AddNewPatients from './Admin UI/Components/patients2';
+import SearchPatients from './Admin UI/Components/searchpatients';
+import ViewAllDoctors from './Admin UI/Components/viewAllDoctors';
+import AddNewDoctor from './Admin UI/Components/addNewDoctor';
 //
 
 const App = () => {
@@ -24,7 +28,27 @@ const App = () => {
           <Route path="/home" exact>
             <Home/>
             <Header/>
-          </Route>          
+          </Route>    
+
+          <Route path ="/addNewPatients" exact>
+            <Header/>
+            <AddNewPatients/>
+          </Route>      
+
+          <Route path ="/searchPatients" exact>
+            <Header/>
+            <SearchPatients/>
+          </Route>
+
+          <Route path ="/viewAllDoctors" exact>
+            <Header/>
+            <ViewAllDoctors/>
+          </Route>
+
+          <Route path ="/addNewDoctor" exact>
+            <Header/>
+            <AddNewDoctor/>
+          </Route>
         </Switch>
 
         <div>
@@ -42,8 +66,7 @@ const App = () => {
           <Route path ="/records" exact>
             <Header/>
             <Records/>
-          </Route>
-          
+          </Route>        
           
           <Route path = "/home" exact component = {home}/>
         </div>
