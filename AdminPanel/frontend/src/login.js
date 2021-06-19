@@ -7,7 +7,7 @@ const Login = (props) => {
     const history = useHistory();  
     return (
         <div>
-            <div className="body"></div>
+            <div className="bodyL"></div>
             <div className="grad"></div>
             <div className="header">
                 <div>Med @ <span>Home</span></div>
