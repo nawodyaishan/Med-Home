@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "5f15d8852a025143f9593a7c"
   },
-  "image": "https://lh3.googleusercontent.com/proxy/PHMeEUxncFvxo71Hbw80j6G8IEv8CHaKUPMbfIAU_XfRTkc-S72ohLqMtiU0Ch-yZG9flgxaK1VXh0W4aIzZawc1Z2Yi",
+  "image": "https://lh3.googleusercontent.com/proxy/lbruCcQoDXAi8oakiSZT4szLItxUoKI0paOQVjCko74j-TmxeoqtjOa1AAEfX2-1-z_8GsjTiwHRAB6NUTO4nMH31lXZrmlPEwU6uaI3NEMJGQn_uxGKLut6EVgv7eiywlTo9IQ",
   "brand": "Diabetes",
   "price": 250,
   "rating": 1,
@@ -19,7 +19,7 @@
   "_id": {
     "$oid": "5f15d92ee520d44421ed8e9b"
   },
-  "image": "",
+  "image": "https://lh3.googleusercontent.com/proxy/Q_3QNdOQw4ftWv-1a33Zor6On-KaaWwJJLAFElKSPdtlqbg8Pz0WuRlbhL5eS2scs4Jc239VHb7N-ZIfJIMpX3eK_LLJ0djMOjPOr-Rm-u8xDJY",
   "brand": "Blood Pressure",
   "price": 350.9,
   "rating": 5,
@@ -53,7 +53,7 @@
   "_id": {
     "$oid": "5f15d9b3e520d44421ed8e9d"
   },
-  "image": "https://static1.squarespace.com/static/5a51022ff43b55247f47ccfc/5a567854f9619a96fd6233bb/5b74446c40ec9afbc633e555/1534346950637/Husqvarna+545FR+%282%29.png?format=1500w",
+  "image": "https://lh3.googleusercontent.com/proxy/GeJGzARV-f7l3Cqe1jf6TmuQ_GDg-cLbSEeCwMOWjmp2DewcZZ-uWmbOrshrWRxzgPTRBKb1NdS5qWi87940wemALOX8v27Ynq3x3JSyg54zRmUJA7Exv6jcMfY",
   "brand": "Skin/Dermatology",
   "price": 490.9,
   "rating": 5,
@@ -70,7 +70,25 @@
   "_id": {
     "$oid": "5f15da13e520d44421ed8e9e"
   },
-  "image": "https://lh3.googleusercontent.com/proxy/ZqRo12bOfeU7xg7mTMfgENdMop_Zl9srLYDKeFilLCZkych8UO4ldDlRzT-8q5scq35krZsqxprZA85RdGLEVvejnPY4RRfNZ1eXDUJRoqHHRWBB5iMCx7UxT4l6iA",
+  "image": "https://lh3.googleusercontent.com/proxy/GeJGzARV-f7l3Cqe1jf6TmuQ_GDg-cLbSEeCwMOWjmp2DewcZZ-uWmbOrshrWRxzgPTRBKb1NdS5qWi87940wemALOX8v27Ynq3x3JSyg54zRmUJA7Exv6jcMfY",
+  "brand": "Respiratory System",
+  "price": 1000,
+  "rating": 5,
+  "numReviews": null,
+  "isFeatured": true,
+  "name": "Royal Clinic",
+  "description": "Trustworthy Service",
+  "category": {
+    "$oid": "5f15d5b2cb4a6642bddc0fe7"
+  },
+  "countInStock": 2,
+  "__v": 0
+}
+,{
+  "_id": {
+    "$oid": "5f15da13e520d44421ed8e9e"
+  },
+  "image": "https://lh3.googleusercontent.com/proxy/GeJGzARV-f7l3Cqe1jf6TmuQ_GDg-cLbSEeCwMOWjmp2DewcZZ-uWmbOrshrWRxzgPTRBKb1NdS5qWi87940wemALOX8v27Ynq3x3JSyg54zRmUJA7Exv6jcMfY",
   "brand": "Respiratory System",
   "price": 1000,
   "rating": 5,

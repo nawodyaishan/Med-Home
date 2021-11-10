@@ -1,32 +1,13 @@
 {
+  "name": "medathomev2.2",
+  "displayName": "medathomev2.2",
   "expo": {
-    "name": "medathomev2.0",
-    "slug": "medathomev2.0",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
+    "name": "medathomev2.2",
+    "slug": "medathomev2.2",
+    "version": "2.0.0",
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "description": ""
   }
 }
