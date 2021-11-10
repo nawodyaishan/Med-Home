@@ -47,6 +47,9 @@ const LoginNw = (props) => {
                                 <a href="#forgot">Forgot Password?</a>
                             </div>
                         </div>
+                        <input type="text" placeholder=" Username" name="user"/> <br/>
+                        <input type="password" placeholder=" Password" name="password"/> <br/>
+                        <input type="button" value="Login" onClick={() => history.push('/home')} />
                     </div>
                 </div>
             </div>

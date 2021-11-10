@@ -41,7 +41,7 @@ export default function doctors(){
                                 </div>
                             </div>
                             <h4>Dr.Steve Smith</h4> 
-                            <h5>Radiology , Breast Cancer</h5> 
+                            <h5>Radiology , Cancer</h5> 
                         </div>
                         <div className="col-md-12 text-center list-doctor-2 item">
                             <div className="img-hover1">
@@ -62,7 +62,7 @@ export default function doctors(){
                                 </div>
                             </div>
                             <h4>Dr.Steve Smith</h4> 
-                            <h5>Radiology , Breast Cancer</h5> 
+                            <h5>Radiology , Cancer</h5> 
                         </div>
                         <div className="col-md-12 text-center list-doctor-2 item">
                             <div className="img-hover1">
@@ -83,7 +83,7 @@ export default function doctors(){
                                 </div>
                             </div>
                             <h4>Dr.Steve Smith</h4> 
-                            <h5>Radiology , Breast Cancer</h5> 
+                            <h5>Radiology , Cancer</h5> 
                         </div>
                         <div className="col-md-12 text-center list-doctor-2 item">
                             <div className="img-hover1">
@@ -104,7 +104,7 @@ export default function doctors(){
                                 </div>
                             </div>
                             <h4>Dr.Steve Smith</h4> 
-                            <h5>Radiology , Breast Cancer</h5> 
+                            <h5>Radiology , Cancer</h5> 
                         </div>
                         <div className="col-md-12 text-center list-doctor-2 item">
                             <div className="img-hover1">
@@ -125,7 +125,7 @@ export default function doctors(){
                                 </div>
                             </div>
                             <h4>Dr.Steve Smith</h4> 
-                            <h5>Radiology , Breast Cancer</h5> 
+                            <h5>Radiology , Cancer</h5> 
                         </div>
                         <div className="col-md-12 text-center list-doctor-2 item">
                             <div className="img-hover1">
@@ -146,7 +146,7 @@ export default function doctors(){
                                 </div>
                             </div>
                             <h4>Dr.Steve Smith</h4> 
-                            <h5>Radiology , Breast Cancer</h5> 
+                            <h5>Radiology , Cancer</h5> 
                         </div>
                         <div className="col-md-12 text-center list-doctor-2 item">
                             <div className="img-hover1">
@@ -167,7 +167,7 @@ export default function doctors(){
                                 </div>
                             </div>
                             <h4>Dr.Steve Smith</h4> 
-                            <h5>Radiology , Breast Cancer</h5> 
+                            <h5>Radiology , Cancer</h5> 
                         </div>
                         <div className="col-md-12 text-center list-doctor-2 item">
                             <div className="img-hover1">
@@ -188,7 +188,7 @@ export default function doctors(){
                                 </div>
                             </div>
                             <h4>Dr.Steve Smith</h4> 
-                            <h5>Radiology , Breast Cancer</h5> 
+                            <h5>Radiology , Cancer</h5> 
                         </div>
                     </div>
                 </div>

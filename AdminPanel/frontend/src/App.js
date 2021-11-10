@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch,Redirect } from 'react-router-dom';
 import './App.css';
 import Login from './login';
 import Home from './Admin UI/App';
@@ -14,8 +14,18 @@ import AddNewPatients from './Admin UI/Components/patients2';
 import SearchPatients from './Admin UI/Components/searchpatients';
 import ViewAllDoctors from './Admin UI/Components/viewAllDoctors';
 import AddNewDoctor from './Admin UI/Components/addNewDoctor';
+import Auth from './actions/userActions';
 //
 
+function PrivateRoute ({ children, ...rest }) {
+  return(
+    <Route {...rest} render={() => {
+      return Auth.userLoggedIn === true
+      ? children
+      : <Redirect to='/' />
+    }} />
+  )
+}
 const App = () => {
   return (
     <div className="App">
@@ -25,10 +35,10 @@ const App = () => {
             <Login/>
           </Route>
 
-          <Route path="/home" exact>
+          <PrivateRoute path="/home" exact>
             <Home/>
             <Header/>
-          </Route>    
+          </PrivateRoute>    
 
           <Route path ="/addNewPatients" exact>
             <Header/>
